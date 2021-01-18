@@ -20,6 +20,7 @@ plt.plot(radius, mass, 'bs',markersize=1)
 plt.title("M vs R Graph")
 plt.xlabel("Radius (in average Earth radius)")
 plt.ylabel("Mass (in Solar Mass)")
+plt.grid()
 plt.savefig('M_vs_R.png',dpi=300,transparent=True)
 
 # Choosing small masses for fitting
@@ -75,4 +76,5 @@ plt.plot(fit_mass, rho_c, 'bs',markersize=1)
 plt.title("rho_c vs M Graph for Small Masses")
 plt.xlabel("Mass (in Solar Mass)")
 plt.ylabel("rho_c")
+plt.grid()
 plt.savefig('rho_c_vs_M.png',dpi=300,transparent=True)
